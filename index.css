@@ -1,0 +1,142 @@
+/* =========================
+   RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   PIG BACKGROUND
+========================= */
+.pig-bg {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("pig.jpg");  /* ← your new image name */
+    background-size: 400px;            /* change size if needed */
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =========================
+   MAIN CARD
+========================= */
+.glass-card {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(255, 105, 180, 0.3);
+}
+
+/* =========================
+   TITLES
+========================= */
+.title,
+.love-title {
+    font-size: 2.5rem;
+    color: #ff4d88;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    color: #cc3366;
+    margin-bottom: 30px;
+}
+
+/* =========================
+   BUTTONS (YES / NO)
+========================= */
+.button-group {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.love-btn {
+    padding: 14px 40px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.yes-btn {
+    background: linear-gradient(45deg, #ff4d88, #ff1a66);
+}
+
+.yes-btn:hover {
+    transform: scale(1.1);
+}
+
+.no-btn {
+    background: gray;
+}
+
+.no-btn:hover {
+    transform: translateY(-4px);
+}
+
+/* =========================
+   GIFT SECTION (HOME PAGE)
+========================= */
+.gift-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gift-link {
+    font-size: 90px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+.gift-link:hover {
+    transform: scale(1.2);
+}
+
+/* =========================
+   GIFT PHOTO PAGE
+========================= */
+.gift-photo-full {
+    width: 300px;
+    max-width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    margin: 20px 0;
+}
+
+.back-btn {
+    padding: 10px 25px;
+    background: #ff4d88;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 15px;
+}
+/* =========================
+   LOVE VIDEO
+========================= */
+.love-video {
+    width: 300px;
+    max-width: 90%;
+    border-radius: 20px;
+    margin: 20px 0;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+}
+
+.love-gif {
+    width: 50px;      /* small size */
+    max-width: 100%;
+    margin: 5px 0;
+    border-radius: 5px;
+}
